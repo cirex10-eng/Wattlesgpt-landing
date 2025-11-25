@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WattlesGPT Pro | AI Boundary Resolution for Surveyors & Title Pros</title>
+  <meta name="description" content="Resolve boundary disputes in 60 seconds. AI powered by Gurdon Wattles’ evidence hierarchy. Instant risk scores, legal descriptions, and court-ready plats." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            primary: '#1E40AF',   // Deep Blue
+            accent: '#F59E0B',    // Amber
+            gray: {
+              50: '#F9FAFB',
+              100: '#F3F4F6',
+              200: '#E5E7EB',
+              300: '#D1D5DB',
+              600: '#4B5563',
+              800: '#1F2937',
+              900: '#111827',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .gradient-bg { background: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%); }
+    .hero-glow { box-shadow: 0 0 60px rgba(30, 64, 175, 0.3); }
+    .fade-in { animation: fadeIn 1s ease-out forwards; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+
+  <!-- HERO SECTION -->
+  <header class="gradient-bg text-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 py-20 lg:py-28">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="fade-in">
+          <h1 class="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            Resolve Boundaries in <span class="text-accent">60 Seconds</span>
+          </h1>
+          <p class="text-xl mb-8 text-gray-100">
+            AI trained on <strong>Gurdon Wattles’ evidence hierarchy</strong> instantly analyzes deeds, ranks monuments, and outputs court-ready legal descriptions.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="#waitlist" class="bg-accent hover:bg-amber-600 text-gray-900 font-bold py-4 px-8 rounded-lg text-center transition shadow-lg">
+              Join Waitlist → Free Beta Access
+            </a>
+            <a href="#demo" class="border-2 border-white hover:bg-white hover:text-primary font-semibold py-4 px-8 rounded-lg text-center transition">
+              Watch 60-Second Demo
+            </a>
+          </div>
+          <p class="mt-6 text-sm text-gray-300">
+            Trusted by surveyors in FL, CA, TX • <span class="font-mono">Beta launching Q1 2026</span>
+          </p>
+        </div>
+        <div class="fade-in lg:justify-self-end">
+          <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-6 hero-glow max-w-lg mx-auto">
+            <img src="https://via.placeholder.com/600x400/1E40AF/FFFFFF?text=AI+Plat+Sketch+Generator" alt="AI-generated annotated plat map" class="rounded-xl shadow-2xl w-full" />
+            <p class="text-center mt-4 text-sm font-mono">↑ AI plat from deed upload (real output)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOCIAL PROOF -->
+  <section class="bg-white py-6 border-b">
+    <div class="max-w-7xl mx-auto px-6">
+      <p class="text-center text-gray-600 font-medium">
+        “WattlesGPT caught a 0.8-acre overlap our team missed. Saved a $120k lawsuit.” 
+        <span class="block mt-1 text-sm font-mono">— Mark R., PLS, Tampa, FL</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- PROBLEM / SOLUTION -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">Boundary Disputes Cost You <span class="text-accent">Time & Money</span></h2>
+        <p class="text-xl text-gray-600">90% of litigation starts with ambiguous calls. You don’t have 8 hours to retrace 1880s field notes.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-xl shadow-sm border">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">⚠️</div>
+          <h3 class="font-bold text-lg mb-2">Ambiguous Deeds</h3>
+          <p class="text-gray-600">"Along the old fence" ≠ centerline. Risky assumptions = lawsuits.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">⏳</div>
+          <h3 class="font-bold text-lg mb-2">8-Hour Manual Reviews</h3>
+          <p class="text-gray-600">Hierarchy of calls, monument decay, senior rights — all buried in Wattles.</p>
+        </div>
+        <div class="bg-white p-8 rounded-xl shadow-sm border">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">💸</div>
+          <h3 class="font-bold text-lg mb-2">$1,500–$5,000 per Survey</h3>
+          <p class="text-gray-600">Clients balk. Title delays. You eat the research time.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-16">
+        <div class="inline-flex items-center bg-primary text-white px-6 py-3 rounded-full font-bold">
+          <span>WattlesGPT Pro</span> 
+          <span class="ml-2">→</span> 
+          <span class="ml-2">60-Second Resolution</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">How It Works</h2>
+      <div class="grid lg:grid-cols-3 gap-10">
+        <div class="text-center">
+          <div class="w-20 h-20 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4">1</div>
+          <h3 class="font-bold text-xl mb-2">Upload Deed or Plat</h3>
+          <p class="text-gray-600">PDF, image, or text. AI extracts calls in 3 seconds.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4">2</div>
+          <h3 class="font-bold text-xl mb-2">AI Applies Wattles Hierarchy</h3>
+          <p class="text-gray-600">Ranks monuments → distances → area. Flags conflicts with citations.</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 bg-primary text-white rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4">3</div>
+          <h3 class="font-bold text-xl mb-2">Get Court-Ready Output</h3>
+          <p class="text-gray-600">Risk score, legal description, annotated plat, case law.</p>
+        </div>
+      </div>
+
+      <div class="mt-16 text-center">
+        <a href="#demo" class="bg-accent hover:bg-amber-600 text-gray-900 font-bold py-4 px-8 rounded-lg inline-flex items-center transition shadow-lg">
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zM9 13.93V10H7v3.93a6.02 6.02 0 012 0zm1-3.93V6h1v4h-1zm3.54 5.54a6.02 6.02 0 01-5.08 0 5.97 5.97 0 010-8.08 6.02 6.02 0 015.08 0 5.97 5.97 0 010 8.08z"/></svg>
+          See It in Action (60s)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES GRID -->
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">Everything Surveyors Need</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">⚖️ Dispute Risk Score™</h3>
+          <p class="text-gray-600 text-sm">1–100 score based on ambiguity, monument age, and senior rights.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">📜 Legal Description Generator</h3>
+          <p class="text-gray-600 text-sm">Wattles-compliant, closure-verified, ready for recording.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">🗺️ AI Plat Sketcher</h3>
+          <p class="text-gray-600 text-sm">Auto-annotated maps with bearings, curves, and monuments.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">📚 Case Law Citations</h3>
+          <p class="text-gray-600 text-sm">Pulls FL/US precedents from Wattles (e.g., Rivers v. Lozeau).</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">🔌 API for Title Software</h3>
+          <p class="text-gray-600 text-sm">Plug into Qualia, ResWare, CoreLogic. Pre-close risk alerts.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border hover:shadow-md transition">
+          <h3 class="font-bold text-lg mb-2">📱 Mobile Field App</h3>
+          <p class="text-gray-600 text-sm">Scan deed on-site. Get risk score before staking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+      <p class="text-xl text-gray-600 mb-12">Free beta in Q1 2026. Lock in founder rate.</p>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div class="border-2 border-gray-200 rounded-2xl p-8 hover:border-primary transition">
+          <h3 class="text-2xl font-bold mb-2">Lite</h3>
+          <p class="text-5xl font-bold mb-1">$19<span class="text-lg font-normal text-gray-600">/mo</span></p>
+          <p class="text-gray-600 mb-6">For agents & homeowners</p>
+          <ul class="text-left space-y-3 mb-8 text-sm">
+            <li>✔️ 10 analyses/mo</li>
+            <li>✔️ Risk score + plat</li>
+            <li>✔️ Email support</li>
+          </ul>
+          <a href="#waitlist" class="block bg-gray-100 hover:bg-gray-200 text-gray-900 font-bold py-3 rounded-lg">Join Waitlist</a>
+        </div>
+
+        <div class="border-2 border-primary rounded-2xl p-8 relative shadow-lg">
+          <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-accent text-gray-900 px-4 py-1 rounded-full text-sm font-bold">MOST POPULAR</div>
+          <h3 class="text-2xl font-bold mb-2">Pro</h3>
+          <p class="text-5xl font-bold mb-1">$99<span class="text-lg font-normal text-gray-600">/mo</span></p>
+          <p class="text-gray-600 mb-6">For surveyors & title pros</p>
+          <ul class="text-left space-y-3 mb-8 text-sm">
+            <li>✔️ Unlimited analyses</li>
+            <li>✔️ Legal description export</li>
+            <li>✔️ API access (soon)</li>
+            <li>✔️ Priority support</li>
+          </ul>
+          <a href="#waitlist" class="block bg-primary hover:bg-blue-800 text-white font-bold py-3 rounded-lg">Join Waitlist → Founder Rate</a>
+        </div>
+
+        <div class="border-2 border-gray-200 rounded-2xl p-8 hover:border-primary transition">
+          <h3 class="text-2xl font-bold mb-2">Enterprise</h3>
+          <p class="text-5xl font-bold mb-1">Custom</p>
+          <p class="text-gray-600 mb-6">For title companies & firms</p>
+          <ul class="text-left space-y-3 mb-8 text-sm">
+            <li>✔️ White-label API</li>
+            <li>✔️ SSO + audit logs</li>
+            <li>✔️ Dedicated support</li>
+          </ul>
+          <a href="mailto:hello@wattlesgpt.com" class="block bg-gray-100 hover:bg-gray-200 text-gray-900 font-bold py-3 rounded-lg">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / WAITLIST -->
+  <section id="waitlist" class="py-20 bg-primary text-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Be First in Line</h2>
+      <p class="text-xl mb-8">Free beta access. Lock in $49/mo founder rate for life.</p>
+      <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+        <input type="email" placeholder="you@firm.com" class="flex-1 px-6 py-4 rounded-lg text-gray-900 text-lg" required />
+        <button type="submit" class="bg-accent hover:bg-amber-600 text-gray-900 font-bold px-8 py-4 rounded-lg text-lg">Get Beta Access</button>
+      </form>
+      <p class="mt-6 text-sm">No spam. We respect your inbox. <a href="#" class="underline">Privacy Policy</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-400 py-12">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-4 gap-8 text-sm">
+        <div>
+          <h3 class="text-white font-bold mb-3">WattlesGPT Pro</h3>
+          <p>AI boundary intelligence for the real world.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-2">Product</h4>
+          <ul class="space-y-1">
+            <li><a href="#demo" class="hover:text-white">Demo</a></li>
+            <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+            <li><a href="#" class="hover:text-white">API Docs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-2">Company</h4>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:text-white">About</a></li>
+            <li><a href="#" class="hover:text-white">Blog</a></li>
+            <li><a href="mailto:hello@wattlesgpt.com" class="hover:text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold mb-2">Legal</h4>
+          <ul class="space-y-1">
+            <li><a href="#" class="hover:text-white">Privacy</a></li>
+            <li><a href="#" class="hover:text-white">Terms</a></li>
+            <li><a href="#" class="hover:text-white">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mt-10 pt-8 border-t border-gray-800 text-center text-xs">
+        <p>&copy; 2025 WattlesGPT, Inc. Not legal advice. Always verify with a licensed surveyor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DEMO MODAL (placeholder) -->
+  <div id="demo" class="hidden fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-6">
+    <div class="bg-white rounded-2xl max-w-3xl w-full p-8 relative">
+      <button onclick="document.getElementById('demo').classList.add('hidden')" class="absolute top-4 right-4 text-gray-500 hover:text-gray-900">✕</button>
+      <h3 class="text-2xl font-bold mb-4">Watch the 60-Second Demo</h3>
+      <div class="bg-gray-200 border-2 border-dashed rounded-xl w-full h-96 flex items-center justify-center">
+        <p class="text-gray-600">Video placeholder – upload to YouTube & embed here</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simple form submission (replace with ConvertKit, etc.)
+    document.querySelector('form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thanks! You’re on the beta list. Check your email.');
+    });
+  </script>
+</body>
+</html>
